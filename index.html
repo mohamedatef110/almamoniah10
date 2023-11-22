@@ -1,0 +1,764 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href= 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title> شركة المأمونية </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+<!--
+
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="data:image/png;base64,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">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
+              <li class="scroll-to-section"><a href="#video">Videos</a></li> 
+              <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
+              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="#contact">Contact Us Now</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="owl-carousel owl-banner">
+                <div class="item header-text">
+                  <h6>Welcome to Al Mamoniah </h6>
+                  <h2>المأمونية  <em>شريك الحج </em> الخاص بك <span></span></h2>
+                  <p>     شركة المأمونية للحج والعمرة تعتبر واحدة من أبرز الشركات في مجال تنظيم الحج والعمرة. تتمتع الشركة بسمعة ممتازة بين العملاء وتقدم خدماتها بأعلى مستوى من الجودة </p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#contact">Message Us Now</a>
+                    </div>
+                    <div class="call-button">
+                      <a href="https://api.whatsapp.com/send/?phone=966920004255"><i class="fa fa-phone"></i> 920004255</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item header-text">
+                  <h6> Welcome to Al Mamoniah</h6>
+                  <h2>  تجربة   <em>  خالية </em>  من المتاعب  <span>  وسلسة </span></h2>
+                  <p> مع شركة المأمونية للحج والعمرة، يمكنك ترك الخدمات اللوجستية والترتيبات لنا. نحن نتولى جميع الترتيبات اللازمة، بما في ذلك النقل والإقامة والإرشاد، حتى تتمكن من التركيز على رحلتك الروحية دون أي قلق أو متاعب.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#services">Our Services</a>
+                    </div>
+                    <div class="call-button">
+                      <a href="https://api.whatsapp.com/send/?phone=966920004255"><i class="fa fa-phone"></i> 920004255</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item header-text">
+                  <h6>Welcome to Al Mamoniah</h6>
+                  <h2>شاهد  <em>بعض الفيديوهات  </em> عن  خدماتني <span>المتميزة</span></h2>
+                  <p> <a " =" =">  تقدم شركتنا خدمات شخصية لتلبية احتياجاتك الخاصة أثناء رحلة الحج والعمرة. نحن نتفهم أهمية التجربة المريحة والروحية، وفريقنا ملتزم بضمان الاهتمام بكل جانب من جوانب رحلتك.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#video">Watch Videos</a>
+                    </div>
+                    <div class="call-button">
+                      <a href="https://api.whatsapp.com/send/?phone=966920004255"><i class="fa fa-phone"></i> 920004255</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="our-services section">
+    <div class="services-right-dec">
+      <img src="assets/images/services-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="services-left-dec">
+        <img src="assets/images/services-left-dec.png" alt="">
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>نحن    <em>نقدم</em> أفضل <span>خدمات الحج و العمرة</span></h2>
+            <span>خدماتنا </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-services">
+            <div class="item">
+              <h4>خدمات شخصية لرحلتك </h4>
+              <div class="icon"><img src="assets/images/service-icon-01.png" alt=""></div>
+              <p>تقدم شركتنا خدمات شخصية لتلبية احتياجاتك الخاصة أثناء رحلة الحج والعمرة. نحن نتفهم أهمية التجربة المريحة والروحية، وفريقنا ملتزم بضمان الاهتمام بكل جانب من جوانب رحلتك.</p>
+            </div>
+            <div class="item">
+              <h4>تجربة خالية من المتاعب وسلسة</h4>
+              <div class="icon"><img src="assets/images/service-icon-02.png" alt=""></div>
+              <p>مع شركة المأمونية للحج والعمرة، يمكنك ترك الخدمات اللوجستية والترتيبات لنا. نحن نتولى جميع الترتيبات اللازمة، بما في ذلك النقل والإقامة والإرشاد، حتى تتمكن من التركيز على رحلتك الروحية دون أي قلق أو متاعب.</p>
+            </div>
+            <div class="item">
+              <h4>توجيه الخبراء والدعم </h4>
+              <div class="icon"><img src="assets/images/service-icon-03.png" alt=""></div>
+              <p>فريقنا ذو الخبرة متاح دائمًا لتقديم التوجيه والدعم طوال رحلة الحج والعمرة. بدءًا من الاستعدادات قبل المغادرة وحتى المساعدة على الأرض، نحن ملتزمون بضمان حصولك على تجربة سلسة ومرضية. خدماتنا الشخصية والاهتمام بالتفاصيل تميزنا عن الشركات الأخرى.</p>
+            </div>
+            <div class="item">
+              <h4>   
+السلامة والأمان  </h4>
+              <div class="icon"><img src="assets/images/service-icon-04.png" alt=""></div>
+              <p> ضمان سلامة الحجاج والمعتمرين وتوفير الدعم والرعاية الطبية</p>
+            </div>
+            <div class="item">
+              <h4>  الإرشاد والتوجيه</h4>
+              <div class="icon"><img src="assets/images/service-icon-01.png" alt=""></div>
+              <p> تقديم إرشادات دينية وسلوكية للحجاج والمعتمرين خلال رحلتهم الروحية.</p>
+            </div>
+            <div class="item">
+              <h4> الراحة والرفاهية</h4>
+              <div class="icon"><img src="assets/images/service-icon-02.png" alt=""></div>
+              <p>  توفير إقامة مريحة ومرافق ملائمة للحجاج والمعتمرين خلال فترة إقامتهم.</p>
+            </div>
+            <div class="item">
+              <h4> الاستجابة للاحتياجات الخاصة</h4>
+              <div class="icon"><img src="assets/images/service-icon-03.png" alt=""></div>
+              <p> تلبية احتياجات الحجاج والمعتمرين من ذوي الاحتياجات الخاصة وتوفير الدعم اللازم لهم </p>
+            </div>
+            <div class="item">
+              <h4>الاستجابة للشكاوى</h4>
+              <div class="icon"><img src="assets/images/service-icon-04.png" alt=""></div>
+              <p> التعامل بفعالية مع أي شكاوى أو مشاكل تواجهها الحجاج </p>
+            </div>
+            <div class="item">
+              <h4>البرامج التعليمية </h4>
+              <div class="icon"><img src="assets/images/service-icon-01.png" alt=""></div>
+              <p>تقديم برامج تعليمية ودروس دينية للحجاج والمعتمرين لتعزيز فهمهم للشعائر والتقاليد الدينية المرتبطة بالحج والعمرة.</p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="left-image">
+            <img src="https://images.unsplash.com/photo-1553755088-ef1973c7b4a1?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU0fHxpc2xhbXxlbnwwfHwwfHx8MA%3D%3D" alt="Two Girls working together">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h2>  <em>للاشتراك </em>  معنا <span> لحج عام 1445هـ</span> </h2>
+            <p>اللهم إني أريد الحج فيسره لي وتقبله مني، وتقبل مني دعاء الحاج المستجاب، اللهم إني أعوذ بك من الشيطان الرجيم، اللهم إني أسألك حجاً مبروراً وسعياً مشكوراً وذنباً مغفوراً وتجارةً لن تبور.
+</p>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="icon">
+                      <img src="assets/images/service-icon-01.png" alt="">
+                    </div>
+                    <div class="count-digit">2000</div>
+                    <div class="count-title">عدد الحجاج كل عام</div>
+                    <p>الباقة المميزة VIP </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="icon">
+                      <img src="assets/images/service-icon-02.png" alt="">
+                    </div>
+                    <div class="count-digit">1900</div>
+                    <div class="count-title">عدد زوار الموقع </div>
+                    <p> </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="icon">
+                      <img src="assets/images/service-icon-03.png" alt="">
+                    </div>
+                    <div class="count-digit">13,500</div>
+                    <div class="count-title">سعر الباقة المميزة</div>
+                    <p> </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="our-portfolio section">
+    <div class="portfolio-left-dec">
+      <img src="assets/images/portfolio-left-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>اجواء <em>عائلية </em> لرحلة  <span>روحانية </span></h2>
+            <span>شركة المأمونية </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-portfolio">
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-1.fna.fbcdn.net/v/t39.30808-6/360098422_769141661836657_6027281969911942873_n.jpg?stp=c0.34.206.206a_dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lFDVL_IryIYAX_mt52L&_nc_ht=scontent.fjed5-1.fna&oh=00_AfBcinXWQXzwnEW3-SNACH6pEbj9ZweB6n-VdxmSdvJ6Ag&oe=6562C00B" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-2.fna.fbcdn.net/v/t39.30808-6/360107702_769140581836765_3830312167285704535_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Q4em0WATqL0AX8fFnEj&_nc_ht=scontent.fjed5-2.fna&oh=00_AfCvgJ69Lf3MbPAKtvnuhaIiPo5WU-kBNSMPJDG0iaIPPQ&oe=65635EFE"alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-2.fna.fbcdn.net/v/t39.30808-6/360115067_769140608503429_1279489522321213156_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BREGXyTytr0AX8tGhyC&_nc_ht=scontent.fjed5-2.fna&oh=00_AfAz5zZuXpMYt4FwBC_TnmslyIfEM-AsOABKlJKezDaCgA&oe=65631563" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-1.fna.fbcdn.net/v/t39.30808-6/360105370_769134161837407_1494690040525446199_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lgegDPco840AX_HJ-Jz&_nc_ht=scontent.fjed5-1.fna&oh=00_AfDIcVRO9UEQUWOBGChne-_YZKNAIKmllKtT2K5d8k4pYA&oe=6563C110" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-1.fna.fbcdn.net/v/t39.30808-6/360125804_769130541837769_2526745714549139410_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=2mRAJN9FHI4AX-Mlwcu&_nc_ht=scontent.fjed5-1.fna&oh=00_AfDKTbwRWcaHQBQlgfn9_oS3E5QHtzedZagpKF9u2sxblQ&oe=6562E5B2" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-2.fna.fbcdn.net/v/t39.30808-6/360152669_769128198504670_736446152932904628_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1_BJhSPFY0oAX-3SQUQ&_nc_ht=scontent.fjed5-2.fna&oh=00_AfC0_0ZloM9qGMPzwbSXqtabhd0GOyKAgVWmeHBkjsF6hw&oe=656265AB"alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-1.fna.fbcdn.net/v/t39.30808-6/360122946_769140065170150_1097439710002246256_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OFySPeMYan0AX8rXIuU&_nc_ht=scontent.fjed5-1.fna&oh=00_AfDSu1N_Z0-WKPaIbtam6GC1yYTtbSoaqnvrmAQV_5vyEA&oe=65630CFF" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-1.fna.fbcdn.net/v/t39.30808-6/360112563_769134225170734_3622737853306013163_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Y2KXlX3DhQgAX--yGRE&_nc_ht=scontent.fjed5-1.fna&oh=00_AfAyCOT6IMEkS1V1tzFwfLP90iaRJqyyyE0lH1Jtaw7bGA&oe=656217C6" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-2.fna.fbcdn.net/v/t39.30808-6/360121825_769133281837495_6573636671190403490_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_qcQ3GjsOKAAX_LBnCk&_nc_ht=scontent.fjed5-2.fna&oh=00_AfBAHb54IQJgpLyFiT_fElLyq7MT-MXkDZnikQWNsQv3Zg&oe=656387EE" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-2.fna.fbcdn.net/v/t39.30808-6/360092610_769131175171039_6666416724147023807_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=NxdZUhknDpgAX8QKgjy&_nc_ht=scontent.fjed5-2.fna&oh=00_AfBbqgGHPTiQ78Zn7Mm1EGPtbN2aqgc0RnGAX_JCTgZ65A&oe=6562D2CE" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-1.fna.fbcdn.net/v/t39.30808-6/360134065_769131105171046_2669215520876360373_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=asGL_gkA7uQAX9jOmqX&_nc_oc=AQk4M0yKuw80eH6mHO5GC7KmM-tdkiFzTciZxeaMEtTebQqiXO71W9XAjzL_OxdsvsE&_nc_ht=scontent.fjed5-1.fna&oh=00_AfCYtxHHVpT7NiKxLjIPIikNNhweWdV0FYFKi1YtqnRpZA&oe=6562ED93" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://scontent.fjed5-2.fna.fbcdn.net/v/t39.30808-6/360129873_769130741837749_8890359630909089816_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=m029APrLv6gAX87mQyV&_nc_ht=scontent.fjed5-2.fna&oh=00_AfART9xAqNOvykVcRkAJTgnrgclnXgk8KT031N4Djszwgg&oe=656373B6" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pricing" class="pricing-tables">
+    <div class="tables-left-dec">
+      <img src="assets/images/tables-left-dec.png" alt="">
+    </div>
+    <div class="tables-right-dec">
+      <img src="assets/images/tables-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2> اسعار الباقات <em>موسم الحج </em> عام 1445<span></span></h2>
+            <span>Our Plans</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="item first-item">
+            <h4>الباقة الاقتصادية </h4>
+            <em>$160/mo</em>
+            <span>5000 ريال </span>
+            <ul>
+              <li>  فئة:د1
+
+رقم المخيم 1122
+
+               </li>
+              <li>الأكل عبارة عن بوفيه مفتوح للثلاث وجبات
+تتوفر مشروبات بارده وساخنة على مدار الساعة.</li>
+              <li>يتوفر نوعين من المواصلات:
+• تقوم الحملة بتوفير الباصات للتنقل من مكان التعاقد إلى مكة ذهاباً وإياباً
+قطار المشاعر للتنقل بين المشاعر</li>
+              <li>أربعة عشر دورة مياه مجهزة ونظيفة
+مع النظافة والإهتمام الدوري</li>
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="https://localhaj.haj.gov.sa/LHB/pages/home.xhtml?dswid=-4245">للتسجيل في الباقة </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item second-item">
+            <h4>الباقة المميزة </h4>
+            <em>$240/mo</em>
+            <span>13,500 ريال </span>
+            <ul>
+              <li>فئة: 1أ
+
+رقم المخيم 1024
+
+الشريحة الأولى في البرنامج العام</li>
+              <li>المخيم يحتوي على نوعين من الخيم:
+• خيمة تتسع لعشرين شخص وتحتوي على سوفابد أو سرير دورين
+• الصالون (٤٠ شخص متواجد في الصالون مع الداعي/الداعية) – نوع السرير: سوفابد.</li>
+              <li>• الأكل عبارة عن بوفيه مفتوح للثلاث وجبات
+• تتوفر مشروبات بارده وساخنة على مدار الساعة بالإضافة إلى سناك خفيف بين الوجبات</li>
+              <li>يتوفر نوعين من المواصلات:
+• تقوم الحملة بتوفير الباصات للتنقل من مكان التعاقد إلى مكة ذهاباً وإياباً
+• قطار المشاعر للتنقل بين المشاعر</li>
+                          <li>ثلاثين دورة مياه مجهزة ومنظفة
+مع النظافة والإهتمام الدوري
+
+
+</li>
+
+			</ul>
+			
+            <div class="main-blue-button-hover">
+              <a href="https://localhaj.haj.gov.sa/LHB/pages/home.xhtml?dswid=-4245">للتسجيل في الباقة</a>
+            </div>
+          </div>
+        </div>
+       
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="subscribe" class="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="inner-content">
+            <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                <h2>اشترك في النشرة الإخبارية </h2>
+                <form id="subscribe" action="" method="get">
+                  <input type="text" name="website" id="website" placeholder="Name" required="">
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                  <button type="submit" id="form-submit" class="main-button ">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="video" class="our-videos section">
+    <div class="videos-left-dec">
+      <img src="assets/images/videos-left-dec.png" alt="">
+    </div>
+    <div class="videos-right-dec">
+      <img src="assets/images/videos-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-8">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <iframe width="100%" height="auto" src="https://www.facebook.com/watch/?v=2420756748009236" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="overlay-effect">
+                            <a href="#"><h4>فيديو توضيحي لشركة المأمونية</h4></a>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <iframe width="100%" height="auto" src="E:\inds\فيديو 5.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="overlay-effect">
+                            <a href="#"><h4>شركة المأمونية </h4></a>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <iframe width="100%" height="auto" src="E:\inds\فيديو.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="overlay-effect">
+                            <a href="#"><h4>شركة المأمونية</h4></a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <iframe width="100%" height="auto" src="E:\inds\فيديو 3.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="overlay-effect">
+                            <a href="#"><h4>شركة المأمونية</h4></a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <div class="menu">
+                    <div class="active">
+                      <div class="thumb">
+                        <img src="E:\inds\لوجو.ico" alt="">
+                        <div class="inner-content">
+                          <h4> شركة المأمونية</h4>
+                       
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <img src="E:\inds\masjid-pogung-dalangan-GGtHPUYx6oI-unsplash.jpg" alt="">
+                        <div class="inner-content">
+                          <h4> شركة المأمونية</h4>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <img src="E:\inds\13-2.jpg" alt="Marketing">
+                        <div class="inner-content">
+                          <h4>شركة المأمونية</h4>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <img src="E:\inds\ekrem-osmanoglu-R_t4oOh-Lvg-unsplash.jpg" alt="SEO Work">
+                        <div class="inner-content">
+                          <h4>شركة المأمونية</h4>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="section-heading">
+            <h2>موقع <em>شركة </em> المأمونية <span>للحج والعمرة</span></h2>
+            <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d231.8434191718124!2d39.12715942456308!3d21.605638197390412!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3da4495209ab3%3A0xd196659945f9751f!2z2KfZhNmF2KPZhdmI2YbZitipINmE2YTYrdisINmI2KfZhNi52YXYsdipINmI2KfZhNiz2YrYp9it2Kk!5e0!3m2!1sar!2ssa!4v1700638701298!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="info">
+              <span><i class="fa fa-phone"></i> <a href="#">9200 04255<br>9200 04255</a></span>
+              <span><i class="fa fa-envelope"></i> <a href="#">info@almamoniah.com
+<br>info@almamoniah.com
+</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <form id="contact" action="" method="get">
+            <div class="row">
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+               
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="main-button">Submit Request</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="contact-dec">
+      <img src="assets/images/contact-dec.png" alt="">
+    </div>
+    <div class="contact-left-dec">
+      <img src="assets/images/contact-left-dec.png" alt="">
+    </div>
+  </div>
+
+  <div class="footer-dec">
+    <img src="assets/images/footer-dec.png" alt="">
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="about footer-item">
+            <div class="logo">
+              <a href="#"><img src="E:\inds\لوجو.ico" alt="Onix Digital TemplateMo"></a>
+            </div>
+            <a href="#">info@almamoniah.com</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services footer-item">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">افضل خدمات الحجاج</a></li>
+              <li><a href="#">نحج كعائلة </a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="community footer-item">
+            <h4> </h4>
+            <ul>
+              <li><a href="#">   </a></li>
+              <li><a href="#"> </a></li>
+              <li><a href="#"> </a></li>
+              <li><a href="#"> </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="subscribe-newsletters footer-item">
+            <h4>Subscribe Newsletters</h4>
+            <p>Get our latest news and ideas to your inbox</p>
+            <form action="#" method="get">
+              <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+              <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright">
+            <p> حقوق الطبع والنشر 2019. www.almamoniah.com جميع الحقوق محفوظة
+            <br>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+  // Acc
+    $(document).on("click", ".naccs .menu div", function() {
+      var numberIndex = $(this).index();
+
+      if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+    });
+  </script>
+</body>
+</html>
